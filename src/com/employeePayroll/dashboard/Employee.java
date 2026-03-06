@@ -1,3 +1,8 @@
+/*
+ * @author developer
+ * @version 3
+ */
+
 package com.employeePayroll.dashboard;
 
 import java.io.FileWriter;
@@ -13,6 +18,10 @@ public class Employee {
 		this.name = name;
 		this.email = email;
 		this.phone = phone;
+	}
+	public Employee(String empid,String name) {
+		this.empId=empid;
+		this.name=name;
 	}
 	public String getEmpId() {
 		return empId;
