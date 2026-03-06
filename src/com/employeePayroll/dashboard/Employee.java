@@ -1,6 +1,6 @@
 /*
  * @author developer
- * @version 3
+ * @version 5
  */
 
 package com.employeePayroll.dashboard;
@@ -22,6 +22,11 @@ public class Employee {
 	public Employee(String empid,String name) {
 		this.empId=empid;
 		this.name=name;
+	}
+	public Employee(String empId, String name, String email) {
+		this.empId = empId;
+		this.name = name;
+		this.email = email;
 	}
 	public String getEmpId() {
 		return empId;
