@@ -1,11 +1,11 @@
-**Use Case 4 - Payslip Download**
+**Use Case 3 - Payslip Generation**
 
 **Goal**
 
-Allow employees to download or print payslips
+Generate monthly salary breakdown for employees
 
 **Key Concepts**
-- equals() and hashcode()
-- Object cloning
-- Immutable objects
-- File I/O operations
+- Composition
+- Aggregation
+- Stream API calculations
+- Method overriding
